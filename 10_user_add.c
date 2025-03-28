@@ -4,7 +4,7 @@ void main()
 {
 	int a,b,c;
 	printf("this is addition program.....\n");
-	printf("____________________________________\n");
+	printf("________________________________________\n");
 	printf("enter first val :");
 	scanf("%d",&a);//5
 	printf("enter second val : ");
