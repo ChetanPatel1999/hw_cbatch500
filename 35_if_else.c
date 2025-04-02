@@ -4,7 +4,7 @@ void main()
 {
     int age;
     printf("what is your age ? ");
-    scanf("%d", &age); // 55
+    scanf("%d", &age); // 12
     if (age >= 18)
     {
         printf("your are eligible for voting");

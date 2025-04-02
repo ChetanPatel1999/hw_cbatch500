@@ -4,7 +4,7 @@ void main()
 {
     int num;
     printf("enter a num : ");
-    scanf("%d", &num);
+    scanf("%d", &num);//18
     if (num % 2 == 0)
     {
         printf("num is even");
