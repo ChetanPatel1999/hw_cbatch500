@@ -2,7 +2,7 @@
 void main()
 {
     printf("before if \n");
-    if (121>88)
+    if (12>12)
     {
         printf("inside if1 \n");
         printf("inside if2 \n");
