@@ -7,4 +7,4 @@ void main()
     {
         printf("%c ", ch);
     }
-}
+}    
