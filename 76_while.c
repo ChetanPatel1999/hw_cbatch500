@@ -1,4 +1,4 @@
-//.
+//wap to print reverse number 10 to 1.
 #include <stdio.h>
 void main()
 {
