@@ -4,7 +4,7 @@ void main()
 {
     char ch;
     printf("enter first latter of name :");
-    scanf("%c",&ch);//p
+    scanf("%c",&ch);//s
     switch(ch)
     {
         case 'k': printf("kuber yadav");break;
