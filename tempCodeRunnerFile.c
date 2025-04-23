@@ -1,1 +1,1 @@
-  printf("sum of 1 to %d even number : %d ", n, sum);
+s++;

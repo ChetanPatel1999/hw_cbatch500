@@ -10,6 +10,7 @@ void main()
         printf("welcome to my clue ! \n");
         do
         {
+            menu:
             printf("club menue ....\n");
             printf("            item       price\n");
             printf("press 1 for noodles    80\n");
@@ -40,7 +41,8 @@ void main()
                 m++;
                 break;
             default:
-                printf("please press 1 to 3 numbers");
+                printf("please press 1 to 3 numbers\n");
+                goto menu;
             }
             printf("you want to order something more so press 1 :");
             scanf("%d", &num);
