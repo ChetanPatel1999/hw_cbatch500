@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "stdio.h": "c",
-        "58_FOR.C": "cpp"
+        "58_FOR.C": "cpp",
+        "136_PATTERN.C": "cpp",
+        "139_PATTERN.C": "cpp"
     }
 }
