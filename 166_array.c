@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main()
 {
-  int arr[5] = {2, 5, 4, 3, 8};
+  int arr[5] = {2, 5, 4, 3, 18};
   int i;
   printf("array element are : ");
   for (i = 0; i < 5; i++)
