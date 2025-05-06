@@ -1,4 +1,4 @@
-// wap to take array element form user and print them.
+// wap to take array element form user and display only even element.
 #include <stdio.h>
 void main()
 {
@@ -15,12 +15,15 @@ void main()
     {
         printf("%d ", marks[i]);
     }
-    // total sum of all marks
-    // 45 67 89 33 66
-    int sum = 0;
-    for (i = 0; i < 5; i++) // 0
+    printf("\nstudents subject marks only even : ");
+    int c=0;
+    for (i = 0; i < 5; i++)
     {
-        sum = sum + marks[i];
+        if (marks[i] % 2 == 0)
+        {
+            printf("%d ", marks[i]);
+            c++;
+        }
     }
-    printf("\ntotal marks : %d", sum);
+    printf("\ntotal even number : %d",c);
 }
