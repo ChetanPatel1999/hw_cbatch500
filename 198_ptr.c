@@ -10,7 +10,7 @@ void main()
     for (i = 0; i < 5; i++)
     {
         scanf("%d", ptr);
-        ptr++;
+        ptr++; // 420
     }
     ptr = temp;
     printf("display array element : ");
